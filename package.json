@@ -1,0 +1,31 @@
+{
+  "name": "edumarcal.github.io",
+  "version": "1.0.0",
+  "description": "Currículo virtual",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/edumarcal/edumarcal.github.io.git"
+  },
+  "keywords": [
+    "currículo",
+    "projetos"
+  ],
+  "author": "Eduardo Marçal Oliveira",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/edumarcal/edumarcal.github.io/issues"
+  },
+  "homepage": "https://github.com/edumarcal/edumarcal.github.io#readme",
+  "devDependencies": {
+    "browser-sync": "^2.24.1",
+    "gulp": "^3.9.1",
+    "gulp-imagemin": "^4.1.0",
+    "gulp-minify-css": "^1.2.4",
+    "gulp-minify-html": "^1.0.6",
+    "gulp-uglify": "^3.0.0"
+  }
+}
