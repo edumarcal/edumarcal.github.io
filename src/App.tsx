@@ -3,6 +3,7 @@ import "./App.css";
 import { useTranslation } from "react-i18next";
 import ChangeLanguage from "./components/ChangeLanguage";
 import Education from "./components/Education";
+import WorkExperience from "./components/WorkExperience";
 
 const App: React.FC = () => {
   const { t } = useTranslation();
@@ -15,6 +16,7 @@ const App: React.FC = () => {
           <p>{t("about.me")} Eduardo Marçal</p>
           <p>{t("about.contact")}</p>
           <Education />
+          <WorkExperience />
         </header>
       </div>
     </Suspense>

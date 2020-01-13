@@ -51,6 +51,47 @@ i18next
               institution: "Digital Metropolis Institute (IMD / UFRN)",
               period: "From January 2012 to December 2013"
             }
+          },
+          experience: {
+            title: "Work experience",
+            maisData: {
+              title: "Full Stack Developer / Mais Data Comunicação LTDA - ME",
+              institution: "Mais Data Comunicação LTDA - ME",
+              period: "From August 2018 to December 2019",
+              details:
+                "Web application development, as well as implementing new features of Cabo Telecom's Second Way Appbot, having as main technologies: Golang, Laravel, ReactJS, GraphQL, MongoDB, PostgreSQL and Git for code versioning."
+            },
+            navi: {
+              title: "Junior Tester / Núcleo Avançado de Inovação",
+              institution:
+                "Federal Institute of Science and Technology of Rio Grande do Norte",
+              period: "From June 2017 - Until December 2017",
+              details:
+                "Development of activities in the creation and performance of platform acceptance tests, in addition to web development. Technologies used: PHP (Laravel), PostgreSQL, Travis and Git for version control."
+            },
+            ccsl: {
+              title: "Trainee / Centro de Competências em Software Livre",
+              institution:
+                "Federal Institute of Science and Technology of Rio Grande do Norte",
+              period: "From March 2017 - Until June 2017",
+              details:
+                "Development of an application for management of the institute's access control, using the technologies: Qt in C ++ and Raspberry Pi integration test with sensors."
+            },
+            pmce: {
+              title:
+                "Teacher / Dr. Concurso (preparatory to the PM-EC competition)",
+              institution: "Dr. Concurso",
+              period: "From July 2016 - Until September 2016",
+              details:
+                "Taught the informatics contents for the PM-CE contest, governed by the Edital 01/2016"
+            },
+            instrutor: {
+              title: "Computing instructor / Fatex | Escola de Profissões",
+              institution: "Fatex | Escola de Profissões",
+              period: "From January 2010 - Until December 2011",
+              details:
+                "Teaching basic computing (Windows, Word, Excel, PowerPoint, Outlook and Browsers) and advanced computing (CorelDRAW, PhotoShop and AutoCAD)."
+            }
           }
         }
       },
@@ -81,6 +122,48 @@ i18next
               title: "Técnico em Informática para Internet",
               institution: "Instituto Metrópole Digital - IMD / UFRN",
               period: "De janeiro de 2012 a dezembro de 2013"
+            }
+          },
+          experience: {
+            title: "Experiências profissionais",
+            maisData: {
+              title:
+                "Desenvolvedor Full Stack / Mais Data Comunicação LTDA - ME",
+              institution: "Mais Data Comunicação LTDA - ME",
+              period: "De agosto de 2018 a dezembro de 2019",
+              details:
+                "Desenvolvimento de aplicações web, além de implementar novas funcionalidades do Appbot de Segunda via da Cabo Telecom, tendo como principais tecnologias: Golang, Laravel, ReactJS, GraphQL, MongoDB, PostgreSQL e Git para o versionamento de código."
+            },
+            navi: {
+              title: "Junior Tester / Núcleo Avançado de Inovação",
+              institution:
+                "Instituto Federal de Educação, Ciência e Tecnologia do Rio Grande do Norte",
+              period: "De junho de 2017 - Até dezembro de 2017",
+              details:
+                "Desenvolvimento de atividades na criação e realização de testes de aceitação da plataforma, além do desenvolvimento web. Tecnologias utilizadas: PHP (Laravel), PostgreSQL, Travis e Git para controle de versão."
+            },
+            ccsl: {
+              title: "Estagiário / Centro de Competências em Software Livre",
+              institution:
+                "Instituto Federal de Educação, Ciência e Tecnologia do Rio Grande do Norte",
+              period: "De março de 2017 - Até junho 2017",
+              details:
+                "Desenvolvimento de uma aplicação para gerenciamento de o controle de acesso do instituto, utilizando as tecnologias: Qt em C++ e teste de integração do Raspberry Pi com os sensores."
+            },
+            pmce: {
+              title:
+                "Professor / Dr. Concurso (preparatório para o concurso da PM-CE)",
+              institution: "Dr. Concurso",
+              period: "De julho de 2016 - Até setembro 2016",
+              details:
+                "Ministrado os conteúdos de informática para o concurso da PM-CE, regido pelo Edital 01/2016"
+            },
+            instrutor: {
+              title: "Instrutor de Informática / Fatex | Escola de Profissões",
+              institution: "Fatex | Escola de Profissões",
+              period: "De janeiro de 2010 - Até dezembro 2011",
+              details:
+                "Ensinando informática básica (Windows, Word, Excel, PowerPoint, Outlook e Navegadores) e informática avançada (CorelDRAW, PhotoShop e AutoCAD)."
             }
           }
         }
