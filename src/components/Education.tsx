@@ -21,22 +21,18 @@ const Education: React.FC = () => {
           contentArrowStyle={{
             borderRight: "7px solid #74777a"
           }}
-          date="2017"
+          date="2018"
           icon={<FontAwesomeIcon icon={faGraduationCap} />}
           iconStyle={{ background: "#74777a", color: "#fff" }}
         >
           <h3 className="vertical-timeline-element-title">
-            Tecnólogo em Análise e Desenvolvimento de Sistemas
+            {t("education.tads.title")}
           </h3>
-          <h4 className="vertical-timeline-element-subtitle">
-            Instituto Federal de Educação, Ciência e Tecnologia do Rio Grande do
-            Norte
-          </h4>
-          <p>De julho de 2014 a abril de 2018</p>
-          <p>
-            Mercosul – A Plataforma de Livre-Trânsito de Profissionais de saúde
-            nos países do MERCOSUL (Registro de Software no BR 51 2018000087-8).
-          </p>
+          <h5 className="vertical-timeline-element-subtitle">
+            {t("education.tads.institution")}
+          </h5>
+          <p>{t("education.tads.period")}</p>
+          <p>{t("education.tads.details")}</p>
         </VerticalTimelineElement>
 
         <VerticalTimelineElement
@@ -50,13 +46,13 @@ const Education: React.FC = () => {
           iconStyle={{ background: "#74777a", color: "#fff" }}
         >
           <h3 className="vertical-timeline-element-title">
-            Técnico em Redes de Computadores
+            {t("education.network.title")}
           </h3>
-          <h4 className="vertical-timeline-element-subtitle">
-            Instituto Metrópole Digital (IMD/UFRN)
-          </h4>
-          <p>De janeiro de 2014 a dezembro de 2016</p>
-          <p>Monitor de programação para redes.</p>
+          <h5 className="vertical-timeline-element-subtitle">
+            {t("education.network.institution")}
+          </h5>
+          <p>{t("education.network.period")}</p>
+          <p>{t("education.network.details")}</p>
         </VerticalTimelineElement>
 
         <VerticalTimelineElement
@@ -70,12 +66,12 @@ const Education: React.FC = () => {
           iconStyle={{ background: "#74777a", color: "#fff" }}
         >
           <h3 className="vertical-timeline-element-title">
-            Técnico em Informática para Internet
+            {t("education.web.title")}
           </h3>
-          <h4 className="vertical-timeline-element-subtitle">
-            Instituto Metrópole Digital (IMD/UFRN)
-          </h4>
-          <p>De janeiro de 2012 a dezembro de 2013</p>
+          <h5 className="vertical-timeline-element-subtitle">
+            {t("education.web.institution")}
+          </h5>
+          <p>{t("education.web.period")}</p>
         </VerticalTimelineElement>
       </VerticalTimeline>
     </>
