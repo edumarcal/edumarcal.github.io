@@ -27,7 +27,11 @@ i18next
           loading: "Loading...",
           about: {
             title: "Hi, I'm",
-            me: "Hi, I'm"
+            me: "Hi, I'm",
+            contact: "You can reach me at"
+          },
+          education: {
+            title: "Education"
           }
         }
       },
@@ -36,7 +40,11 @@ i18next
           loading: "Caregando...",
           about: {
             title: "Olá, Eu sou",
-            me: "Olá, Eu sou"
+            me: "Olá, Eu sou",
+            contact: "Você pode me encontrar em"
+          },
+          education: {
+            title: "Formação acadêmica"
           }
         }
       }
