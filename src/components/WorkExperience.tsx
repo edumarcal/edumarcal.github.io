@@ -98,7 +98,10 @@ const WorkExperience: React.FC = () => {
                 "http://www.institutoaocp.org.br/concursos/arquivos/anexo1_abert_pmce.pdf"
             })}{" "}
             <i>
-              <a href="http://www.institutoaocp.org.br/concursos/arquivos/anexo1_abert_pmce.pdf">
+              <a
+                href="http://www.institutoaocp.org.br/concursos/arquivos/anexo1_abert_pmce.pdf"
+                className="App-link"
+              >
                 ( link )
               </a>
             </i>

@@ -40,12 +40,15 @@ const AboutMe: React.FC = () => {
       <p>
         {t("about.contact")}{" "}
         {social.map((s, idx) => (
-          <a href={s.link} key={idx}>
+          <a href={s.link} key={idx} className="App-link">
             {s.title}
             {idx + 1 !== social.length ? ", " : " "}
           </a>
         ))}
-        {t("about.or")} <a href="mailto:edumarcalnet@gmail.com">email</a>
+        {t("about.or")}{" "}
+        <a href="mailto:edumarcalnet@gmail.com" className="App-link">
+          email
+        </a>
       </p>
     </>
   );
