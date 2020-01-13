@@ -1,9 +1,11 @@
 import React, { Suspense } from "react";
-import "./App.css";
 import { useTranslation } from "react-i18next";
-import ChangeLanguage from "./components/ChangeLanguage";
+import "./App.css";
+import AboutMe from "./components/AboutMe";
 import Education from "./components/Education";
+import Header from "./components/Header";
 import WorkExperience from "./components/WorkExperience";
+import Footer from "./components/Footer";
 
 const App: React.FC = () => {
   const { t } = useTranslation();
@@ -11,13 +13,13 @@ const App: React.FC = () => {
   return (
     <Suspense fallback={t("loading") || ""}>
       <div className="App">
+        <Header />
         <header className="App-header">
-          <ChangeLanguage />
-          <p>{t("about.me")} Eduardo Marçal</p>
-          <p>{t("about.contact")}</p>
+          <AboutMe />
           <Education />
           <WorkExperience />
         </header>
+        <Footer />
       </div>
     </Suspense>
   );

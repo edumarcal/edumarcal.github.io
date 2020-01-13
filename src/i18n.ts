@@ -28,7 +28,9 @@ i18next
           about: {
             title: "Hi, I'm",
             me: "Hi, I'm",
-            contact: "You can reach me at"
+            description: "...",
+            contact: "You can reach me at",
+            or: "or"
           },
           education: {
             title: "Education",
@@ -101,7 +103,9 @@ i18next
           about: {
             title: "Olá, Eu sou",
             me: "Olá, Eu sou",
-            contact: "Você pode me encontrar em"
+            description: "...",
+            contact: "Você pode me encontrar em",
+            or: "ou"
           },
           education: {
             title: "Formação acadêmica",
