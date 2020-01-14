@@ -107,6 +107,11 @@ i18next
               }
             }
           },
+          project: {
+            title: "Projects",
+            findies: "Sports management platform.",
+            oxeDesign: "Startup Interior Designer Projects."
+          },
           footer: {
             title: "Made with",
             by: "by",
@@ -199,6 +204,11 @@ i18next
                 institute: "Instituição"
               }
             }
+          },
+          project: {
+            title: "Projetos",
+            findies: "Plataforma de gerenciamento de partidas esportivas.",
+            oxeDesign: "Startup de projetos de Designer de interiores."
           },
           footer: {
             title: "Feito",
