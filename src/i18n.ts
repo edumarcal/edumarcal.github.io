@@ -106,12 +106,18 @@ i18next
                 institute: "Institute"
               }
             }
+          },
+          footer: {
+            title: "Made with",
+            by: "by",
+            wrong: "See something wrong? Report",
+            here: "here"
           }
         }
       },
       pt: {
         translation: {
-          loading: "Caregando...",
+          loading: "Carregando...",
           about: {
             title: "Olá, Eu sou",
             me: "Olá, Eu sou",
@@ -193,6 +199,12 @@ i18next
                 institute: "Instituição"
               }
             }
+          },
+          footer: {
+            title: "Feito",
+            by: "por",
+            wrong: "Viu algo errado? informe",
+            here: "aqui"
           }
         }
       }

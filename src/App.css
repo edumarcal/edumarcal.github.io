@@ -1,9 +1,10 @@
 .App {
   text-align: center;
+  background-color: #282c34;
+  color: white;
 }
 
 .App-header {
-  background-color: #282c34;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -22,6 +23,11 @@
   display: flex;
   flex-direction: row-reverse;
   color: #fff;
+}
+
+.App-header-menu-network {
+  padding-right: 10px;
+  color: white;
 }
 
 .App-header-menu-button {
@@ -50,7 +56,6 @@
 }
 
 .App-training {
-  background-color: #282c34;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -61,4 +66,23 @@
 
 .App-training-table {
   width: 90%;
+}
+
+.App-footer-title {
+  margin-bottom: 6px;
+}
+
+.App-footer-subtitle {
+  margin-top: 6px;
+  margin-bottom: 0px;
+  padding-bottom: 16px;
+}
+
+.App-footer-heart {
+  width: 20px;
+  height: 20px;
+  display: inline-block;
+  background-image: url(https://unpkg.com/emoji-datasource-twitter@4.0.2/img/twitter/sheets-256/64.png);
+  background-size: 5200%;
+  background-position: 98.0392156862745% 15.686274509803921%;
 }

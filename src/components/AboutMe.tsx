@@ -1,7 +1,28 @@
+import { faMapMarkerAlt } from "@fortawesome/free-solid-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import React from "react";
 import { useTranslation } from "react-i18next";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faMapMarkerAlt } from "@fortawesome/free-solid-svg-icons";
+import github from "../images/Github-595b40b65ba036ed117d442f.svg";
+import gitlab from "../images/Gitlab-595b40b65ba036ed117d415e.svg";
+
+const AboutNetwork: React.FC = () => {
+  return (
+    <div>
+      <a
+        href="https://github.com/edumarcal"
+        className="App-header-menu-network"
+      >
+        <img src={github} alt="Github" height="28" width="28" />
+      </a>
+      <a
+        href="https://gitlab.com/edumarcal"
+        className="App-header-menu-network"
+      >
+        <img src={gitlab} alt="Github" height="28" width="28" />
+      </a>
+    </div>
+  );
+};
 
 const AboutMe: React.FC = () => {
   const social = [
@@ -24,25 +45,18 @@ const AboutMe: React.FC = () => {
     {
       title: "Twitter",
       link: "https://twitter.com/edumarcalnet"
-    },
-    {
-      title: "Github",
-      link: "https://github.com/edumarcal"
-    },
-    {
-      title: "GitLab",
-      link: "https://gitlab.com/edumarcal"
     }
   ];
   const { t } = useTranslation();
   return (
     <>
-      <p>{t("about.me")} Eduardo Marçal</p>
+      <h1>{t("about.me")} Eduardo Marçal</h1>
+      <p>{t("about.description")}</p>
       <p>
         <FontAwesomeIcon icon={faMapMarkerAlt} /> Natal, RN
       </p>
-      <p>{t("about.description")}</p>
       <p>
+        <AboutNetwork />
         {t("about.contact")}{" "}
         {social.map((s, idx) => (
           <a href={s.link} key={idx} className="App-link">
