@@ -1,5 +1,7 @@
 import React from "react";
 import { useTranslation } from "react-i18next";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faMapMarkerAlt } from "@fortawesome/free-solid-svg-icons";
 
 const AboutMe: React.FC = () => {
   const social = [
@@ -36,6 +38,9 @@ const AboutMe: React.FC = () => {
   return (
     <>
       <p>{t("about.me")} Eduardo Marçal</p>
+      <p>
+        <FontAwesomeIcon icon={faMapMarkerAlt} /> Natal, RN
+      </p>
       <p>{t("about.description")}</p>
       <p>
         {t("about.contact")}{" "}

@@ -94,6 +94,18 @@ i18next
               details:
                 "Teaching basic computing (Windows, Word, Excel, PowerPoint, Outlook and Browsers) and advanced computing (CorelDRAW, PhotoShop and AutoCAD)."
             }
+          },
+          competence: {
+            title: "Training",
+            table: {
+              header: {
+                preview: "Preview",
+                year: "Year",
+                workload: "Workload",
+                description: "Description",
+                institute: "Institute"
+              }
+            }
           }
         }
       },
@@ -168,6 +180,18 @@ i18next
               period: "De janeiro de 2010 - Até dezembro 2011",
               details:
                 "Ensinando informática básica (Windows, Word, Excel, PowerPoint, Outlook e Navegadores) e informática avançada (CorelDRAW, PhotoShop e AutoCAD)."
+            }
+          },
+          competence: {
+            title: "Capacitações",
+            table: {
+              header: {
+                preview: "Visualizar",
+                year: "Ano",
+                workload: "Carga Horária",
+                description: "Descrição",
+                institute: "Instituição"
+              }
             }
           }
         }
