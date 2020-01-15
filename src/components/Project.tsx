@@ -13,6 +13,7 @@ const Project: React.FC = () => {
         </a>{" "}
         - {t("project.findies")}
       </div>
+      <div className="App-card-divider"></div>
       <div className="App-card">
         <a href="https://oxedesign.herokuapp.com/" className="Ap-link">
           Oxê Design

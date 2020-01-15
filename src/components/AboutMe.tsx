@@ -7,7 +7,7 @@ import gitlab from "../images/Gitlab-595b40b65ba036ed117d415e.svg";
 
 const AboutNetwork: React.FC = () => {
   return (
-    <div>
+    <p>
       <a
         href="https://github.com/edumarcal"
         className="App-header-menu-network"
@@ -20,7 +20,7 @@ const AboutNetwork: React.FC = () => {
       >
         <img src={gitlab} alt="Github" height="28" width="28" />
       </a>
-    </div>
+    </p>
   );
 };
 
@@ -55,8 +55,8 @@ const AboutMe: React.FC = () => {
       <p>
         <FontAwesomeIcon icon={faMapMarkerAlt} /> Natal, RN
       </p>
+      <AboutNetwork />
       <p>
-        <AboutNetwork />
         {t("about.contact")}{" "}
         {social.map((s, idx) => (
           <a href={s.link} key={idx} className="App-link">

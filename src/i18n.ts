@@ -112,6 +112,12 @@ i18next
             findies: "Sports management platform.",
             oxeDesign: "Startup Interior Designer Projects."
           },
+          talks: {
+            title: "Talks and Workshops",
+            pmce:
+              "Public Tender for entry to the position of PM Soldier of the career of military police squares of the military police of Ceará",
+            navi: "Development of functional tests in Laravel (Dusk)"
+          },
           footer: {
             title: "Made with",
             by: "by",
@@ -209,6 +215,12 @@ i18next
             title: "Projetos",
             findies: "Plataforma de gerenciamento de partidas esportivas.",
             oxeDesign: "Startup de projetos de Designer de interiores."
+          },
+          talks: {
+            title: "Palestras e Workshops",
+            pmce:
+              "Concurso Público para ingresso no cargo de Soldado PM da carreira de praças policiais militares da polícia militar do Ceará",
+            navi: "Desenvolvimento de testes funcionais no Laravel (Dusk)"
           },
           footer: {
             title: "Feito",
