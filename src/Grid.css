@@ -1,0 +1,103 @@
+/* .col-1 {
+    text-align: center;
+  margin: auto;
+  max-width: 15%;
+  padding: 5px;
+  background-color: blueviolet;
+}
+
+.col-2 {
+  margin: auto;
+  max-width: 80%;
+  padding: 5px;
+} */
+
+.App-language-title {
+  text-transform: uppercase;
+  font-weight: 500;
+  margin-bottom: 0px;
+}
+
+.row span {
+  color: #8a8a8b;
+}
+
+@media (max-width: 767) {
+  .row {
+    display: table;
+  }
+
+  .col-1 {
+    display: inline-table;
+    text-align: center;
+    margin: auto;
+    padding: 5px;
+    width: 100%;
+  }
+
+  .col-2 {
+    display: inline-table;
+    margin: auto;
+    padding: 5px;
+    width: 100%;
+  }
+}
+
+@media (min-width: 768px) {
+  .row {
+    display: table;
+  }
+
+  .col-1 {
+    display: inline-table;
+    text-align: center;
+    margin: auto;
+    padding: 5px;
+    width: 100%;
+  }
+
+  .col-2 {
+    display: inline-table;
+    margin: auto;
+    padding: 5px;
+    width: 100%;
+  }
+}
+
+@media (min-width: 992px) {
+  .col-1 {
+    text-align: center;
+    margin: auto;
+    padding: 5px;
+    width: 100%;
+  }
+  .col-2 {
+    margin: auto;
+    padding: 5px;
+    width: 100%;
+  }
+}
+
+@media (min-width: 1200px) {
+  .row {
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    min-width: 50%;
+  }
+
+  .col-1 {
+    text-align: center;
+    margin: auto;
+    max-width: 15%;
+    padding: 5px;
+  }
+
+  .col-2 {
+    margin: auto;
+    max-width: 80%;
+    padding: 5px;
+  }
+}

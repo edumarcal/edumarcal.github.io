@@ -1,5 +1,6 @@
 import i18next from "i18next";
 import React from "react";
+import { useTranslation } from "react-i18next";
 
 const ChangeLanguage: React.FC = () => {
   const handleChangeLanguage = (value: string) => (
@@ -13,19 +14,20 @@ const ChangeLanguage: React.FC = () => {
     return i18next.language === lng ? "-active" : "";
   };
 
+  const { t } = useTranslation();
   return (
     <>
       <div
         className={`App-header-menu-button${isActiveLanguage("en")}`}
         onClick={handleChangeLanguage("en")}
       >
-        English
+        {t("language.english")}
       </div>{" "}
       <div
         className={`App-header-menu-button${isActiveLanguage("pt")}`}
         onClick={handleChangeLanguage("pt")}
       >
-        Português
+        {t("language.portuguese")}
       </div>
     </>
   );

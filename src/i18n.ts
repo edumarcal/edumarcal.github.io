@@ -125,6 +125,14 @@ i18next
             db: "DATABASE",
             other: "OTHERS"
           },
+          language: {
+            title: "Languages",
+            subtitle: "I speak",
+            native: "Native",
+            basic: "Elementary proficiency",
+            portuguese: "Portuguese",
+            english: "English"
+          },
           footer: {
             title: "Made with",
             by: "by",
@@ -235,6 +243,14 @@ i18next
             language: "LINGUAGENS",
             db: "BANCO DE DADOS",
             other: "OUTROS"
+          },
+          language: {
+            title: "Idiomas",
+            subtitle: "Eu falo",
+            native: "Nativo",
+            basic: "Nível básico",
+            portuguese: "Português",
+            english: "Inglês"
           },
           footer: {
             title: "Feito",

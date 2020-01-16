@@ -6,10 +6,13 @@ import Competence from "./components/Competence";
 import Education from "./components/Education";
 import Footer from "./components/Footer";
 import Header from "./components/Header";
-import WorkExperience from "./components/WorkExperience";
 import Project from "./components/Project";
-import TalkWorkshop from "./components/TalkWorkshop";
 import Skill from "./components/Skill";
+import TalkWorkshop from "./components/TalkWorkshop";
+import WorkExperience from "./components/WorkExperience";
+import "./DotsProgress.css";
+import "./Grid.css";
+import Language from "./sections/Language";
 
 const App: React.FC = () => {
   const { t } = useTranslation();
@@ -25,6 +28,7 @@ const App: React.FC = () => {
           <Project />
           <TalkWorkshop />
           <Skill />
+          <Language />
         </header>
         <Competence />
         <Footer />
