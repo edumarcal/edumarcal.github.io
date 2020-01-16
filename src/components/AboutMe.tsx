@@ -1,26 +1,22 @@
-import { faMapMarkerAlt } from "@fortawesome/free-solid-svg-icons";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import React from "react";
 import { useTranslation } from "react-i18next";
-import github from "../images/Github-595b40b65ba036ed117d442f.svg";
-import gitlab from "../images/Gitlab-595b40b65ba036ed117d415e.svg";
 
 const AboutNetwork: React.FC = () => {
   return (
-    <p>
-      <a
-        href="https://github.com/edumarcal"
-        className="App-header-menu-network"
-      >
-        <img src={github} alt="Github" height="28" width="28" />
-      </a>
-      <a
-        href="https://gitlab.com/edumarcal"
-        className="App-header-menu-network"
-      >
-        <img src={gitlab} alt="Github" height="28" width="28" />
-      </a>
-    </p>
+    <div className="App-horizontal-list">
+      <ul>
+        <li>
+          <a href="https://github.com/edumarcal" title="Github">
+            <i className="cib-github"></i>
+          </a>
+        </li>
+        <li>
+          <a href="https://gitlab.com/edumarcal" title="Gitlab">
+            <i className="cib-gitlab"></i>
+          </a>
+        </li>
+      </ul>
+    </div>
   );
 };
 
@@ -53,7 +49,8 @@ const AboutMe: React.FC = () => {
       <h1>{t("about.me")} Eduardo Marçal</h1>
       <p>{t("about.description")}</p>
       <p>
-        <FontAwesomeIcon icon={faMapMarkerAlt} /> Natal, RN
+        <i className="cil-location-pin"></i>
+        Natal, RN
       </p>
       <AboutNetwork />
       <p>

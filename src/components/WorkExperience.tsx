@@ -1,12 +1,10 @@
 import React from "react";
+import { useTranslation } from "react-i18next";
 import {
   VerticalTimeline,
   VerticalTimelineElement
 } from "react-vertical-timeline-component";
 import "react-vertical-timeline-component/style.min.css";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faGraduationCap, faSchool } from "@fortawesome/free-solid-svg-icons";
-import { useTranslation } from "react-i18next";
 
 const WorkExperience: React.FC = () => {
   const { t } = useTranslation();
@@ -22,8 +20,14 @@ const WorkExperience: React.FC = () => {
             borderRight: "7px solid #74777a"
           }}
           date="2019"
-          icon={<FontAwesomeIcon icon={faGraduationCap} />}
-          iconStyle={{ background: "#74777a", color: "#fff" }}
+          icon={<i className="cib-go"></i>}
+          iconStyle={{
+            background: "#74777a",
+            color: "#fff",
+            display: "grid",
+            alignContent: "center",
+            fontSize: "30px"
+          }}
         >
           <h3 className="vertical-timeline-element-title">
             {t("experience.maisData.title")}
@@ -42,8 +46,14 @@ const WorkExperience: React.FC = () => {
             borderRight: "7px solid #74777a"
           }}
           date="2017"
-          icon={<FontAwesomeIcon icon={faSchool} />}
-          iconStyle={{ background: "#74777a", color: "#fff" }}
+          icon={<i className="cib-laravel"></i>}
+          iconStyle={{
+            background: "#74777a",
+            color: "#fff",
+            display: "grid",
+            alignContent: "center",
+            fontSize: "25px"
+          }}
         >
           <h3 className="vertical-timeline-element-title">
             {t("experience.navi.title")}
@@ -62,8 +72,14 @@ const WorkExperience: React.FC = () => {
             borderRight: "7px solid #74777a"
           }}
           date="2017"
-          icon={<FontAwesomeIcon icon={faSchool} />}
-          iconStyle={{ background: "#74777a", color: "#fff" }}
+          icon={<i className="cib-cplusplus"></i>}
+          iconStyle={{
+            background: "#74777a",
+            color: "#fff",
+            display: "grid",
+            alignContent: "center",
+            fontSize: "25px"
+          }}
         >
           <h3 className="vertical-timeline-element-title">
             {t("experience.ccsl.title")}
@@ -82,8 +98,14 @@ const WorkExperience: React.FC = () => {
             borderRight: "7px solid #74777a"
           }}
           date="2016"
-          icon={<FontAwesomeIcon icon={faSchool} />}
-          iconStyle={{ background: "#74777a", color: "#fff" }}
+          icon={<i className="cil-people"></i>}
+          iconStyle={{
+            background: "#74777a",
+            color: "#fff",
+            display: "grid",
+            alignContent: "center",
+            fontSize: "25px"
+          }}
         >
           <h3 className="vertical-timeline-element-title">
             {t("experience.pmce.title")}
@@ -102,7 +124,7 @@ const WorkExperience: React.FC = () => {
                 href="http://www.institutoaocp.org.br/concursos/arquivos/anexo1_abert_pmce.pdf"
                 className="App-link"
               >
-                ( link )
+                ( <i className="cil-link"></i> link )
               </a>
             </i>
           </p>
@@ -115,8 +137,14 @@ const WorkExperience: React.FC = () => {
             borderRight: "7px solid #74777a"
           }}
           date="2011"
-          icon={<FontAwesomeIcon icon={faSchool} />}
-          iconStyle={{ background: "#74777a", color: "#fff" }}
+          icon={<i className="cil-people"></i>}
+          iconStyle={{
+            background: "#74777a",
+            color: "#fff",
+            display: "grid",
+            alignContent: "center",
+            fontSize: "25px"
+          }}
         >
           <h3 className="vertical-timeline-element-title">
             {t("experience.instrutor.title")}

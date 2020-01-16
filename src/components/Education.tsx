@@ -1,12 +1,10 @@
 import React from "react";
+import { useTranslation } from "react-i18next";
 import {
   VerticalTimeline,
   VerticalTimelineElement
 } from "react-vertical-timeline-component";
 import "react-vertical-timeline-component/style.min.css";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faGraduationCap, faSchool } from "@fortawesome/free-solid-svg-icons";
-import { useTranslation } from "react-i18next";
 
 const Education: React.FC = () => {
   const { t } = useTranslation();
@@ -17,13 +15,22 @@ const Education: React.FC = () => {
       <VerticalTimeline>
         <VerticalTimelineElement
           className="vertical-timeline-element--education"
-          contentStyle={{ background: "#fff", color: "#74777a" }}
+          contentStyle={{
+            background: "#fff",
+            color: "#74777a"
+          }}
           contentArrowStyle={{
             borderRight: "7px solid #74777a"
           }}
           date="2018"
-          icon={<FontAwesomeIcon icon={faGraduationCap} />}
-          iconStyle={{ background: "#74777a", color: "#fff" }}
+          icon={<i className="cil-education"></i>}
+          iconStyle={{
+            background: "#74777a",
+            color: "#fff",
+            display: "grid",
+            alignContent: "center",
+            fontSize: "30px"
+          }}
         >
           <h3 className="vertical-timeline-element-title">
             {t("education.tads.title")}
@@ -42,8 +49,14 @@ const Education: React.FC = () => {
             borderRight: "7px solid #74777a"
           }}
           date="2016"
-          icon={<FontAwesomeIcon icon={faSchool} />}
-          iconStyle={{ background: "#74777a", color: "#fff" }}
+          icon={<i className="cil-institution"></i>}
+          iconStyle={{
+            background: "#74777a",
+            color: "#fff",
+            display: "grid",
+            alignContent: "center",
+            fontSize: "25px"
+          }}
         >
           <h3 className="vertical-timeline-element-title">
             {t("education.network.title")}
@@ -62,8 +75,14 @@ const Education: React.FC = () => {
             borderRight: "7px solid #74777a"
           }}
           date="2014"
-          icon={<FontAwesomeIcon icon={faSchool} />}
-          iconStyle={{ background: "#74777a", color: "#fff" }}
+          icon={<i className="cil-institution"></i>}
+          iconStyle={{
+            background: "#74777a",
+            color: "#fff",
+            display: "grid",
+            alignContent: "center",
+            fontSize: "25px"
+          }}
         >
           <h3 className="vertical-timeline-element-title">
             {t("education.web.title")}
