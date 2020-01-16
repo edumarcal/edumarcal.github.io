@@ -9,6 +9,7 @@ import Header from "./components/Header";
 import WorkExperience from "./components/WorkExperience";
 import Project from "./components/Project";
 import TalkWorkshop from "./components/TalkWorkshop";
+import Skill from "./components/Skill";
 
 const App: React.FC = () => {
   const { t } = useTranslation();
@@ -23,6 +24,7 @@ const App: React.FC = () => {
           <WorkExperience />
           <Project />
           <TalkWorkshop />
+          <Skill />
         </header>
         <Competence />
         <Footer />

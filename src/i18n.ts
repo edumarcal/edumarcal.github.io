@@ -118,6 +118,13 @@ i18next
               "Public Tender for entry to the position of PM Soldier of the career of military police squares of the military police of Ceará",
             navi: "Development of functional tests in Laravel (Dusk)"
           },
+          skill: {
+            title: "Profissional Skill",
+            subtitle: "I can say I'm good at",
+            language: "LANGUAGES",
+            db: "DATABASE",
+            other: "OTHERS"
+          },
           footer: {
             title: "Made with",
             by: "by",
@@ -221,6 +228,13 @@ i18next
             pmce:
               "Concurso Público para ingresso no cargo de Soldado PM da carreira de praças policiais militares da polícia militar do Ceará",
             navi: "Desenvolvimento de testes funcionais no Laravel (Dusk)"
+          },
+          skill: {
+            title: "Habilidades",
+            subtitle: "Eu posso dizer que sou bom em",
+            language: "LINGUAGENS",
+            db: "BANCO DE DADOS",
+            other: "OUTROS"
           },
           footer: {
             title: "Feito",
