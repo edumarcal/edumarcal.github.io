@@ -1,6 +1,12 @@
 {
   "homepage": "https://edumarcal.github.io/",
   "name": "personal-page",
+  "description": "Eduardo Marçal is a researcher and software developer.",
+  "keywords": [
+    "eduardo marçal",
+    "software developer",
+    "researcher"
+  ],
   "version": "0.1.0",
   "private": true,
   "engines": {
