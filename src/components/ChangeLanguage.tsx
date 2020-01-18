@@ -10,7 +10,13 @@ const ChangeLanguage: React.FC = () => {
     i18next.changeLanguage(value);
   };
 
+  const navigatorLanguage = navigator.language;
+
   const isActiveLanguage = (lng: string): string => {
+    if (lng === "pt" && navigatorLanguage === "pt-BR") {
+      return "-active";
+    }
+
     return i18next.language === lng ? "-active" : "";
   };
 

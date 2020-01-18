@@ -260,6 +260,9 @@ i18next
           }
         }
       }
+    },
+    react: {
+      useSuspense: false
     }
   });
 
