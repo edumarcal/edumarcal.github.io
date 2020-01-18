@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/static/css/main.540ca9c2.chunk.css",
+    "main.js": "/static/js/main.423429c6.chunk.js",
+    "main.js.map": "/static/js/main.423429c6.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.1b122566.js",
+    "runtime-main.js.map": "/static/js/runtime-main.1b122566.js.map",
+    "static/css/2.a641e29a.chunk.css": "/static/css/2.a641e29a.chunk.css",
+    "static/js/2.2ca86e9d.chunk.js": "/static/js/2.2ca86e9d.chunk.js",
+    "static/js/2.2ca86e9d.chunk.js.map": "/static/js/2.2ca86e9d.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.3985aa0d49892e129a950e1cfe227387.js": "/precache-manifest.3985aa0d49892e129a950e1cfe227387.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/2.a641e29a.chunk.css.map": "/static/css/2.a641e29a.chunk.css.map",
+    "static/css/main.540ca9c2.chunk.css.map": "/static/css/main.540ca9c2.chunk.css.map",
+    "static/js/2.2ca86e9d.chunk.js.LICENSE": "/static/js/2.2ca86e9d.chunk.js.LICENSE",
+    "static/media/actions-icon-actions.svg": "/static/media/actions-icon-actions.0220cad2.svg",
+    "static/media/cypress.svg": "/static/media/cypress.67a595d5.svg",
+    "static/media/white-ms.svg": "/static/media/white-ms.e45d0e6d.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.1b122566.js",
+    "static/css/2.a641e29a.chunk.css",
+    "static/js/2.2ca86e9d.chunk.js",
+    "static/css/main.540ca9c2.chunk.css",
+    "static/js/main.423429c6.chunk.js"
+  ]
+}
