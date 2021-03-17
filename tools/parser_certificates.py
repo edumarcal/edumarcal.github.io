@@ -39,6 +39,7 @@ for item in certificates:
 		"workload": workload,
 		"description": description,
 		"institute": institute,
+		"link": None,
 	})
 
 # List sorted in descending order
