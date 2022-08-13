@@ -28,7 +28,8 @@ i18next
           about: {
             title: "Hi, I'm",
             me: "Hi, I'm",
-            description: "...",
+            description:
+              "I'm Eduardo Marçal, graduated in MBA in Mobile Development from the Institute of Management and Information Technology (IGTI). Passionate about mobile technologies, curious and always trying to learn new things and improve my skills.",
             contact: "You can reach me at",
             or: "or"
           },
@@ -147,7 +148,8 @@ i18next
           about: {
             title: "Olá, Eu sou",
             me: "Olá, Eu sou",
-            description: "...",
+            description:
+              "Sou Eduardo Marçal, formado em MBA em Desenvolvimento Mobile do Instituto de Gestão e Tecnologia da Informação (IGTI). Apaixonado por tecnologias móveis, curioso e sempre tento aprender coisas novas e aprimorar minhas habilidades.",
             contact: "Você pode me encontrar em",
             or: "ou"
           },

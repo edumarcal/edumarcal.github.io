@@ -47,10 +47,10 @@ const AboutMe: React.FC = () => {
   return (
     <>
       <h1>{t("about.me")} Eduardo Marçal</h1>
-      <p>{t("about.description")}</p>
+      <p className="App-about-me">{t("about.description")}</p>
       <p>
         <i className="cil-location-pin"></i>
-        Natal, RN
+        Ceará Mirim, RN
       </p>
       <AboutNetwork />
       <p>
