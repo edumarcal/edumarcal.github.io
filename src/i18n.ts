@@ -35,6 +35,13 @@ i18next
           },
           education: {
             title: "Education",
+            igti: {
+              title: "MBA in Mobile Development",
+              institution:
+                "Institute of Management and Information Technology (IGTI)",
+              period: "From February 2021 to January 2022",
+              details: ""
+            },
             tads: {
               title: "Technologist in Analysis and Development of Systems",
               institution:
@@ -155,6 +162,13 @@ i18next
           },
           education: {
             title: "Formação acadêmica",
+            igti: {
+              title: "MBA em Desenvolvimento Mobile",
+              institution:
+                "Instituto de Gestão e Tecnologia da Informação (IGTI)",
+              period: "De fevereiro de 2021 a janeiro de 2022",
+              details: ""
+            },
             tads: {
               title: "Tecnólogo em Análise e Desenvolvimento de Sistemas",
               institution:

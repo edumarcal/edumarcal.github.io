@@ -22,6 +22,34 @@ const Education: React.FC = () => {
           contentArrowStyle={{
             borderRight: "7px solid #74777a"
           }}
+          date="2022"
+          icon={<i className="cil-education"></i>}
+          iconStyle={{
+            background: "#74777a",
+            color: "#fff",
+            display: "grid",
+            alignContent: "center",
+            fontSize: "30px"
+          }}
+        >
+          <h3 className="vertical-timeline-element-title">
+            {t("education.igti.title")}
+          </h3>
+          <h5 className="vertical-timeline-element-subtitle">
+            {t("education.igti.institution")}
+          </h5>
+          <p>{t("education.igti.period")}</p>
+          <p>{t("education.igti.details")}</p>
+        </VerticalTimelineElement>
+        <VerticalTimelineElement
+          className="vertical-timeline-element--education"
+          contentStyle={{
+            background: "#fff",
+            color: "#74777a"
+          }}
+          contentArrowStyle={{
+            borderRight: "7px solid #74777a"
+          }}
           date="2018"
           icon={<i className="cil-education"></i>}
           iconStyle={{
