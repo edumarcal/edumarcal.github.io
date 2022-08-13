@@ -52,5 +52,5 @@ except Exception as e:
 	print('File saved to default path')
 
 
-with open(path, 'w') as json_file:
-	json.dump(output, json_file)
+with open(path, 'w', encoding='utf-8') as json_file:
+	json.dump(output, json_file, ensure_ascii=False)
